@@ -1,0 +1,25 @@
+body{
+    background-color: darkgray;
+}
+
+.container{
+    display: grid;
+    gap: 8px;
+    /* Si tiene el espacio necesario 
+    en el minimo no se puede poner 1fr solamente se pueden poner unidades absolutas
+    Esto es el clamping o ranfo*/
+    /* grid-template-columns: minmax(50px,1fr) minmax(250px,1fr);  */
+    /* El auto-fill simplemente esta creando las  las columnas automaticamente y haciendo que las columnas tengas 1fr */
+    /* grid-template-columns: repeat(auto-fill,minmax(50px,1fr)); */
+    /* El auto-fill simplemente distribuye el espacio en las columnas existentes*/
+    /* Simplemente es el tamanio del viewport / el tamanio minimo */
+    grid-template-columns: repeat(auto-fit,minmax(80px,1fr));
+
+    grid-template-columns: repeat(auto-fill, minmax(min(400px,100%),1fr));
+}
+
+.box{
+    background-color: aquamarine;
+    border: 1px solid;
+    height: 20px;
+}

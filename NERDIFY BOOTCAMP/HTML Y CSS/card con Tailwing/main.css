@@ -1,0 +1,161 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+    /* Realizo un wraper para centralizar todo el contenido del container*/
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.contain {
+    /* Este es el container donde estara todo el codigo HTML */
+    background-color: #1a1a1a;
+    /* isolation: isolate; */
+    min-height: 711px;
+    padding-block-start: 200px;
+    padding-inline: 60px;
+    position: relative;
+    width: 1256px;
+}
+
+.lines {
+    inset-block-start: 0;
+    inset-inline-end: 0;
+    mix-blend-mode: soft-light;
+    pointer-events: none;
+    position: absolute;
+    /* z-index: -1; */
+} 
+
+/* Estilos para envolver y encapsular un elemento en este caso para que el 3 no se salga de la pantalla */
+.big-number-wrapper {
+    height: 428px;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    overflow: hidden;
+    position: absolute;
+    width: calc(456px - 80px);
+}
+
+.big-number {
+    /*  */
+    color: #d9d9d9;
+    font-size: 380px;
+    font-weight: 100;
+    inset-block-start: -17px;
+    inset-inline-start: -80px;
+    line-height: 428px;
+    mix-blend-mode: soft-light;
+    position: absolute;
+    width: 456px;
+}
+
+.title {
+    color: white;
+    font-size: 64px;
+    font-weight: 100;
+    line-height: 72px;
+    margin-block: 0;
+    max-width: 680px;
+}
+
+.information {
+    color: white;
+    font-size: 16px;
+    line-height: 21px;
+    margin-block-end: 0;
+    margin-block-start: 20px;
+    max-width: 580px;
+    text-align: justify;
+}
+
+.button {
+    background-image: linear-gradient(91.24deg, #83ff8f -3.05%, #c5f07f 99.34%);
+    border: none;
+    border-radius: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-block-start: 40px;
+    padding: 16px 24px;
+}
+
+.cards {
+}
+
+.card {
+    border-radius: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 452px;
+    width: 334px;
+}
+
+.card--purple {
+    background-color: #8e7ff0;
+    inset-block-start: 118px;
+    inset-inline-end: 100px;
+    position: absolute;
+    transform: rotate(-4.84deg);
+}
+
+.card--yellow {
+    background-color: #f4e282;
+    inset-block-start: 216px;
+    inset-inline-end: -48px;
+    position: absolute;
+    transform: rotate(2.54deg);
+}
+
+.card__top {
+    display: flex;
+    justify-content: space-between;
+    padding-block-start: 36px;
+    padding-inline: 38px;
+}
+
+.card__top-inner {
+    display: flex;
+}
+
+.card__logo {
+    display: flex;
+    column-gap: 8px;
+    margin-block-end: 20px;
+}
+
+.card__logo-text {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.card__bottom {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+    display: flex;
+    justify-content: space-between;
+    height: 128px;
+    padding-inline: 28px;
+}
+
+.person-name {
+    color: #1a1a1a;
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 32px;
+    margin-block: 0;
+}
+
+.expiration-date {
+    color: #1a1a1a;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-block-start: 4px;
+}

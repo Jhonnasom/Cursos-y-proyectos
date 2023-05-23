@@ -1,0 +1,194 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  html{
+    background-color: #E9E9E9;
+  }
+
+
+  .container{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+
+   
+
+  }
+    
+
+.card{
+    background: white;
+    width: 416px;
+    height: 585px;
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: hsla(0, 0%, 6%, 0.1);
+       
+}
+
+.profile{
+
+}
+
+.card-image{
+    position: relative;
+    background:url(img/new-york.png);
+    border-radius: 8px;
+    width: 380px;
+    height: 254px;
+    padding: 18px;
+}
+
+.score{
+    /* display: flex; */
+    align-items: center;
+    background-color: white;
+    width: 59px;
+    height: 24px;
+    padding: 4,8,4,8;
+    top: 14.85px;
+    left: 14.85px;
+    position: absolute;
+    border-radius: 6.86px;
+    /* z-index: 1; */
+}
+
+.star{
+    position: absolute;
+    z-index: 1;
+    padding-top: 4px;
+    padding-inline-end: 4px;
+    left: 8px;
+    gap: 4px;
+
+
+}
+
+h3{
+
+}
+
+
+h2{
+    padding-top: 28px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    padding-bottom:18px;
+}
+
+.autor{
+    display:flex;
+    align-items: center;
+}
+
+
+
+.darell{
+    width: 103px;
+    height: 15px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    color: hsla(240, 3%, 12%, 1);
+    padding-left: 8px;
+    padding-right: 4px;
+}
+
+.from{
+    width: 103px;
+    height: 15px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    color: hsla(240, 3%, 12%, 1);
+    opacity:70%;
+    padding-left: 4px;
+}
+
+.content{
+    width: 380px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 19.6px;
+    margin-top: 21.93px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 19.52px;
+}
+
+.time{
+    margin-top: 19px;
+    margin-bottom: 13.28px;
+    
+}
+
+.watch{
+    width: 15.23px;
+    height: 15.23px;
+    
+}
+
+.hours{
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    margin-left: 10.66px;
+    
+}
+
+
+.raiting{
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+}
+
+
+.btn-watch-now{
+    width: 186px;
+    height: 41.13px;
+    border-radius: 9.14px;
+    border: none;
+    background-color:  hsla(240, 3%, 12%, 1);
+    color:hsla(0, 0%, 100%, 1);
+    margin-top: 29;
+    
+    
+}
+
+.btn-save-guide{
+    width: 186px;
+    height: 41.13px;
+    border-radius: 9.14px;
+    border: none;
+    background-color: hsla(0, 0%, 91%, 1);
+    color: hsla(240, 3%, 12%, 1);
+    /* margin-bottom: 18px; */
+    
+}
+
+
+
+
+
+
+
+

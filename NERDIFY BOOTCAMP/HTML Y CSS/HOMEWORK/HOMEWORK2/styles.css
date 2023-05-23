@@ -1,0 +1,197 @@
+*,::after,
+*,::before{
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+    font-family: 'Inter',sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    position: relative;
+    width: 1256px;
+    height: 711px;
+    border-radius: 64px;
+    background-color: hsla(0, 0%, 10%, 1);
+}
+
+.svg-lines{
+    position: absolute;
+
+}
+
+.number-three{
+    position: absolute;
+    font-family: 'Inter',sans-serif;
+    font-size: 379.188px;
+    line-height: 428px;
+    font-weight: 100;
+    width: 457px;
+    height: 428px;
+    top: -380px;
+    right: 878px;
+    color:hsl(0, 0%, 85%, 1);
+    mix-blend-mode: soft-light;
+}
+
+.phrase{
+    position: absolute;
+    width: 680px;
+    height: 144px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 113%;
+    line-height: 72.32px;
+    color: hsla(0, 0%, 100%, 1);
+    margin-top: 200px;
+    left: 60px;
+    margin-bottom: 20px;
+    /* bottom: 20px; */
+    /* mix-blend-mode: */
+}
+
+.text{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+     position: absolute;
+    width: 690px;
+    height: 248px;
+}
+
+.paragraph{
+    display: flex;
+    position: absolute;
+    color:hsla(0, 0%, 95%, 1) ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.33px;
+    text-align: justify;
+    width: 580px;
+    height: 84px;
+    top: 364px;
+    left: 60px;
+}
+
+.btn-digitize{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 157px;
+    height: 54px;
+    border-radius: 24px;
+    padding-block:16px;
+    left: 60px;
+    top: 488px; 
+    background-image:linear-gradient(91.24deg, #83FF8F -3.05%, #C5F07F 99.34%);
+    color:hsla(0, 0%, 0%, 1);
+    font-weight:500;
+    font-size:18px;
+    line-height:22px;
+    margin-top: 40px;
+}
+
+.cards-1{
+    position:absolute;
+    margin-top: 117px;
+    margin-left: 784px;
+    width: 334.25px;
+    height: 451.82px;
+    /* margin-top:62px;
+    margin-left: 787px; */
+    transform: rotate(-4.84deg);
+    background-color:hsla(248, 79%, 72%, 1);
+    border-radius: 34.010px;
+}
+
+.cards-2{
+    position: absolute;
+    /* bottom: 103.84px; */
+    margin-left: 950px;
+    margin-top: 216px;
+    /* margin-bottom: -28.84px; */
+    width: 334.25px;
+    height: 451.82px;
+    transform: rotate(2.54deg);
+    background-color: hsla(51, 84%, 73%, 1);
+    border-radius: 34.010px;
+}
+
+.square{
+    /* display: flex; */
+    position: absolute;
+    z-index: 1;
+    top:36.76px;
+    left: 40.23px;
+}
+
+.macro{
+    display: flex;
+    position: absolute;
+    top:36.76px;
+    left:85.26px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 100;
+    font-size:19.37px;
+    line-height: 23.44px;
+    color: hsla(0, 0%, 10%, 1);
+}
+
+.spider{
+    display: flex;
+    position:absolute;
+    top:36.76px;
+    right:36.76px;
+}
+
+
+.wifi{
+    display: flex;
+    position: absolute;
+    top: 75.87px;
+    left: 40.23px;
+}
+
+.info-owner{
+    margin-top: 324.18px;
+    background-color:hsla(0, 0%, 100%, 0.5);
+    width: 334.25px;
+    height: 128.49px;
+    border-radius:0  0 34.010px 34.010px;
+    padding:33.91px 29.54px;
+}
+
+.card-name{
+    width: 160px;
+    height: 33px;
+    font-weight: 100;
+    font-size: 26.87px;
+    line-height: 32.52px;
+    color: hsla(0, 0%, 10%, 1);
+}
+
+.expiration-card{
+    font-weight: 500;
+    font-size: 13.44px;
+    line-height: 16.26px;
+    color:hsla(0, 0%, 10%, 1);
+}
+
+.visa{
+    position: absolute;
+    /* top:385.26px; */
+    bottom: 60.81px;
+    left: 252.66px;
+}

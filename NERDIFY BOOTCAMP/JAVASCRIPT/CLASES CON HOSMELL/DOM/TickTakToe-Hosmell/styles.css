@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.board{
+    --item-size:150px;
+    display: grid;
+    grid-template-columns: repeat(3,80px);
+}
+
+.item{
+    color: white;
+    font-size: 256px;
+    line-height: 1;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid wheat;
+    height: var(--item-size);
+    width: var(--item-size);
+}

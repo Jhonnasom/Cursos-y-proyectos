@@ -1,0 +1,124 @@
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container{
+    border: 2px dashed white;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    /* Sirve para darle un contorno efecto shadow alrededor de todo el contenido */
+    filter: drop-shadow(0 0 2px #F65F );
+
+}
+
+.origin{
+    background-color: black;
+    border-radius: 50%;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:(-50%, -50%);
+}
+
+.box{
+    /* animation:rotate 2s infinite; 
+    animation-direction: alternate; */
+    /* Alternate nos sirve para solamente tener 2 animaciones sin necesidad de tener 3 valores */
+    width: 80px;
+    height: 80px;
+    background-color: rgba(0,255,255,0.5);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    /* box-shadow: 4px 4px 8px hsl(0%, 100%, 0%/0.5); */
+    /* box-shadow: 4px 4px 4px  8px rgba(255,0,0,0.5), 4px 4px 4px  8px rgba(255,255,0,0.5); */
+    /* transform: (-20px,-20px); */
+    /* Se va a mover 50% del tamano del objeto */
+    /* transform: translateX(50%);
+    transform: translateX(40px) scale(1.1);
+    transform: rotate(50deg); */
+    /* transform:rotate(0.2turn) */
+    /* transform: skew(40deg);
+    transform: rotate(45deg);
+    transform-origin: top-left; */
+    /* transition: transform 1s ease-in-out; */
+    /* Podemos decidir que propiedad queremos transicionar */
+
+    /* Display no se puede animar, si se quiere animar tienen que utilizar la opacidad */
+    
+}
+
+/* @keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+        background-color: chartreuse;
+        transform: rotate(0.5turn) scale(1.2);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+
+
+/* @keyframes rotate{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.5);
+    }
+} */
+
+/* .box:hover{
+    transform: translateX(40px);
+} */
+
+.image{
+    /* filter:contrast(100%) grayscale(90%); */
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: -2px;
+    top: -2px;
+
+}
+
+.circle{
+    background-color:hsl(0 89% 45%);
+    border-radius: 50%;
+    /* filter: blur(2px); */
+    /* Efecto Glass Backdrop filter */
+    /* backdrop-filter: blur(2px);
+    backdrop-filter: grayscale(50%); */
+    height: 40px;
+    inset-block-start: 0px;
+    inset-inline-start: 0px;
+    position: absolute;
+    width: 40px;
+
+}

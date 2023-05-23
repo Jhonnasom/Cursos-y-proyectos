@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <link rel="stylesheet" href="./normalize.css" />
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <img src="img/arrow-left-solid.svg" class="arrowR" width="20px" alt="" srcset="" data-id="1">
+            <div class="app">
+                <div class="images">
+                    <img 
+                        class="image image--active link"
+                        data-id="1"
+                        src="img/img1.png"
+                    />
+                    <img class="image" data-id="2" src="img/img2.png"/>
+                    <img class="image" data-id="3" src="img/img3.png" />
+                </div>
+                <div class="dots">
+                    <button onchange="URLSearchParams" class="dot dot--active" data-id="1"></button>
+                    <button class="dot" data-id="2"></button>
+                    <button class="dot" data-id="3"></button>
+                </div>
+            </div>
+            <a href="" id="link"></a>
+            <img src="img/arrow-right-solid.svg" class="arrowL arrow-active" width="20px" alt="" srcset="" data-id="2">
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

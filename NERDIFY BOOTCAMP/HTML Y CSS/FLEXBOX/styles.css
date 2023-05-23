@@ -1,0 +1,33 @@
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+.boxes{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+
+
+    /* align-items: flex-start; */
+    /* Align Items flex start indica que los elementos se alinien al inicio, esto significa que no van a tomar mayor espacio del heigh que el que requieren */
+
+}
+.box{
+    /* width: 20px;
+    height: 200px; */
+    background-color: blueviolet;
+    flex: 1;
+}
+
+
+.box:nth-child(even){
+    background-color: aquamarine;
+    display:flex;
+}
+
+.box{
+    background-color: violet;
+}
+
